@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Request;
-use Illuminate\Support\Facades\DB;
 use App\TurmaModel;
 use App\CursoModel;
 

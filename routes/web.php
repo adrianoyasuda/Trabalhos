@@ -30,6 +30,11 @@ Route::get('/turma/remover/{id}', 'TurmaController@remover');
 Route::get('/turma/confirmar/{id}', 'TurmaController@confirmar');
 
 Route::get('/aluno', 'AlunoController@listar');
+Route::get('/aluno/cadastrar', 'AlunoController@cadastrar');
+Route::get('/aluno/editar/{id}', 'AlunoController@editar');
+Route::post('/aluno/salvar/{id}', 'AlunoController@salvar');
+Route::get('/aluno/remover/{id}', 'AlunoController@remover');
+
 
 Route::get('/disciplina', 'DisciplinaController@listar');
 Route::get('/disciplina/cadastrar', 'DisciplinaController@cadastrar');
